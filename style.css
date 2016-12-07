@@ -117,15 +117,25 @@ overflow: hidden;
 }
 .leftbar {
 	float: left;
-	position: absolute;
+	position: fixed;
+	z-index: 2;
 	vertical-align: bottom;
 	height: 200px;
 	width: 20%;
 	bottom: 1px;
-	display: inline-block;
-	
-
-
+	display: inline-block;	
+}
+.leftbar .cross{
+	background: url(img/cross.png);
+	margin-left: 165px;
+	cursor: pointer;
+	color:white;
+	height: 13px;
+	width: 13px;
+}
+.leftbar .cross p{
+text-decoration: none;
+line-height: 13px;
 }
 .leftbar p{
 	
@@ -196,7 +206,7 @@ background:url(img/button3.png);
 .work {
 margin-bottom:18px; 
 display: block;
-float: left;
+cursor: pointer;
 width: 171px;
 height: 42px;
 opacity: 0.8;
@@ -536,9 +546,9 @@ span#phone2{
 }
 .dop {
 	width: 100%;
-	height:528;
+	min-height:528px;
 	position: relative;
-	margin: 150px auto 40px auto;
+	margin: 50px auto 40px auto;
 
 }
 .dop p {
@@ -584,9 +594,9 @@ font-weight: 700;
 	vertical-align: bottom;
 <<<<<<< HEAD
 }
-.restavraion {
+.restavration {
 	
-	height: 605px;
+	min-height: 620px;
 	
 }
 .restavration p {
@@ -605,6 +615,7 @@ font-weight: 700;
 .restblock {
 	margin: 40px auto auto auto;
 	width: 80%;
+	min-height: 620px;
 }
 
 .rest {
@@ -612,7 +623,8 @@ font-weight: 700;
 	width: 32%;
 	display: inline-block;
 	float: left;
-	height: 532px;
+	min-height: 532;
+	
 opacity: 0.8;
 background-color: #15b298;
 border: 1px solid #e3e3e3;
@@ -623,28 +635,55 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	display: block;
 	margin: 5px auto;
 }
-.rest span {
+.rest h1 {
 	display: block;
 	text-align: center;
-	height: 20px;
+	
 color: white;
 font-family: "Open Sans";
-font-size: 21px;
+font-size: 1.6em;
 font-weight: 700;
 line-height: 24px;
+margin-bottom: 16px;
+}
+.rest .p1{
+	min-height: 250px;
 }
 .rest p {
 text-align: center;
-height: 233px;
 color: white;
-font-size: 14px;
+font-size: 0.75em;
 line-height: 22px;
-
+display: block;
+width: 83%;
+margin: 0 auto;
 font-family: HelveticaNeueCyr;
 font-weight: 300;
-
-=======
-
+}
+.rest .pre pre{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+.rest pre{
+	color: white;
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: 25px;
+	
+}
+.rest button {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	background-color: yellow;
+	height: 30px;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 1.2em;
+	outline: none;
+	position: relative;
+	bottom: -10px;
 }
 .space {
 	height: 23%;
@@ -672,5 +711,46 @@ font-size: 1.5em;
 font-weight: 700;
 position: relative;
 top:40px;
->>>>>>> 6141dc6c1bd1afe07aa039edbdf9c63d6bbc746d
+}
+
+.registration {
+	min-height: 106px;
+	width: 100%;
+	background: url(img/registration.png) no-repeat;
+	background-size: 100%;
+}
+.registration p {
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 7px;
+	font-size: 1.1em;
+}
+.registration #form {
+	display: block;
+	margin: 30px auto;
+	width: 60%;
+}
+.registration input {
+	width: 30%;
+	border-radius: 30px;
+	outline: none;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-left: 1px;
+	height: 25px;
+	letter-spacing: 0px;
+}
+.registration input:first-child{
+	margin-left: 20px;
+	width: 15%;
+}
+.registration button {
+	width: 40%;
+	border-radius: 30px;
+	outline: none;
+	background-color: yellow;
+	font-size: 1em;
+	font-weight: bold;
+	height: 25px;
 }
