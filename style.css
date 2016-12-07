@@ -4,6 +4,9 @@
 body {
 	background: url(img/bg.png);
 }
+#startSpace{
+	height: 1px;
+}
 nav {
 	height: 85px;
 	width: 100%;
@@ -742,7 +745,7 @@ font-size: 1.5em;
 font-weight: 700;
 position: relative;
 top:40px;
-<<<<<<< HEAD
+
 
 }
 .brand {
@@ -865,7 +868,10 @@ display: block;
         width:430px;
       }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35e5ae507f79f9c7fe637a7249feb81729dec0fc
 
 .registration {
 	z-index: 1;
@@ -909,4 +915,7 @@ display: block;
 	font-weight: bold;
 	height: 25px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35e5ae507f79f9c7fe637a7249feb81729dec0fc
