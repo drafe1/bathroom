@@ -50,15 +50,38 @@ nav li{
 	
 
 }
-nav li:hover {
-
+#knop:hover {
+	border: 1px solid black;
 	cursor: pointer;
 	text-decoration: underline;
 }
 #knop {
-	vertical-align: middle;
+	width: 100%;
+	height: 35px;
+background-color: #c51d34;
+border: 1px solid #e6e3e3;
+border-radius: 16px;
+box-shadow: 0 4px 8px rgba(197, 29, 52, 0.1);
 
 	 
+}
+#knop p{
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+	height: 9px;
+color: white;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 700;
+line-height: 12px;
+margin: 9.5px 0 auto auto;
+}
+#knop img {
+	margin: 2px 0 auto auto;
+	height: 35px;
+	float: right;
+	display: block;
 }
 .first{
 	
@@ -358,6 +381,7 @@ text-align: center;
 .spis  {
 		padding-top: 8px;
 	height: 59px;
+
 	
 }
 .spis .q {
@@ -385,6 +409,7 @@ text-align: center;
 	background:url(img/bg2.png);
 	width: 100%;
 	height: 110px;
+	margin-top:20px; 
 
 }
 .dateform {
@@ -565,6 +590,7 @@ font-weight: 700;
 	width: 40%;
 	display: inline-block;
 	float: left;
+	border: 1px solid #e6e3e3;
 
 }
 .plit {
@@ -575,6 +601,7 @@ font-weight: 700;
 	width: 40%;
 	display: inline-block;
 	float: right;
+	border: 1px solid #e6e3e3;
 }
 .blockop1 {
 	position: relative;
@@ -582,7 +609,7 @@ font-weight: 700;
 	height: 77%;
 	background-color: rgba(26,38,63,0.6);	
 	vertical-align: bottom;
-<<<<<<< HEAD
+
 }
 .restavraion {
 	
@@ -672,5 +699,124 @@ font-size: 1.5em;
 font-weight: 700;
 position: relative;
 top:40px;
->>>>>>> 6141dc6c1bd1afe07aa039edbdf9c63d6bbc746d
+
 }
+.brand {
+	height: 470px;
+	width: 100%;
+}
+.brandblock {
+	height: 400px;
+	display: block;
+	margin: 10px auto;
+	width: 70%;
+}
+.brandblock h1{
+	color: black;
+font-family: "Open Sans";
+font-size: 26px;
+font-weight: 700;
+display: block;
+text-align: center;
+margin: 40px auto;
+}
+.brandsimg {
+	width: 100%;
+	height: 267px;
+	background: url(img/brands.png) no-repeat;
+	background-size: 100%;
+}
+.akz {
+	width: 100%;
+	height: 480px;
+	background: url(img/bg5.png);
+}
+.gall h1{
+	color: black;
+font-family: "Open Sans";
+font-size: 26px;
+font-weight: 700;
+display: block;
+text-align: center;
+margin:  auto auto 40px auto;
+}
+.comment h1 {
+	color: black;
+font-family: "Open Sans";
+font-size: 26px;
+font-weight: 700;
+
+display: block;
+text-align: center;
+
+
+}
+.comment {
+	width: 90%;
+	display: block;
+	margin: 20px auto;
+	
+
+}
+.commblock {
+	height: 661px;
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin: auto 1.5% ;
+
+}
+.blocktextgor{
+	height: 50px;
+	width: 100%;
+}
+.leftblock  {
+
+	height: 50px;
+	font-size: 20px;
+color: black;
+font-family: "Open Sans";
+font-weight: 700;
+line-height: 30px;
+float: left;
+display: block;
+}
+.rightblock img{
+	height: 39px;
+	vertical-align: middle;
+	display: block;
+	
+}
+
+
+
+      #carousel {
+        width:100%;
+        
+        height:480px;
+        position:relative;
+        
+        overflow:hidden;
+       
+      }
+      #carousel img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:20%;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:0px;
+        overflow:scroll;
+      }
+      textarea#newoptions {
+        width:430px;
+      }

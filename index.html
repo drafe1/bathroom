@@ -3,6 +3,42 @@
 	<title></title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js">
+<script type="text/javascript" src="/jquery.waterwheelCarousel.min.js">
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#carousel").waterwheelCarousel({
+
+    });
+  });
+</script>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var carousel = $("#carousel").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        
+
+      });
+    </script>
 </head>
 <body>
 	<nav><img id="vann"src="img/vann.png"> 
@@ -12,7 +48,7 @@
 			<li>услуги</li>
 			<li>фото работ</li>
 			<li>отзывы</li>
-			<li><p>+7-(8172)50-26-21</p> <img id="knop" src="img/b.png"></li>
+			<li><div><p>+7-(8172)50-26-21</p> <div id="knop"> <p>заказать звонок</p><img src="img/b.png"></div></div></li>
 		</ul>
 		
 	</nav>
@@ -144,6 +180,65 @@
 Цена: ванна 1.5 м. - 5300 руб., <br>
            ванна 1.7 м. - 5500 руб.
 </p></div></div>
+			</div>
+		</div>
+		<div class="registration"></div>
+		<div class="brand">
+			<div class="brandblock">
+				<h1>Бренды,с которыми мы работаем</h1>
+				<div class="brandsimg"></div>
+				
+			</div>
+		</div>
+		<div class="gall">
+			<h1>Галерея работ</h1>
+			
+
+		<div class="akz">
+			    <div id="carousel">
+      <a href="#"><img src="images/1.jpg" id="item-1" /></a>
+      <a href="#"><img src="images/2.jpg" id="item-2" /></a>
+      <a href="#"><img src="images/3.jpg" id="item-3" /></a>
+      <a href="#"><img src="images/4.jpg" id="item-4" /></a>
+      <a href="#"><img src="images/5.jpg" id="item-5" /></a>
+      <a href="#"><img src="images/6.jpg" id="item-6" /></a>
+      <a href="#"><img src="images/7.jpg" id="item-7" /></a>
+      <a href="#"><img src="images/8.jpg" id="item-8" /></a>
+      <a href="#"><img src="images/9.jpg" id="item-9" /></a>
+    </div>
+   
+
+    
+
+    
+		</div>
+		</div>
+		<div class="comment">
+			<h1>Что говорят клиенты</h1>
+			<div class="commblock">
+				<div>
+					<div class="blocktextgor">
+						<div class="leftblock"> <p>Андрей и Алена<br>
+ул. Ветошкина, д. 37</p></div>
+						<div class="rightblock"><img src="img/talk.png"></div>
+					</div>
+					<div class="blocktext"></div>
+					<div class="blocktextbott"></div>
+				</div>
+			</div>
+			<div class="commblock">
+				<div>
+					<div class="blocktext"></div>
+					<div class="blocktext"></div>
+					<div class="blocktext"></div>
+				</div>
+			</div>
+			<div class="commblock">
+				<div>
+					<div class="blocktext"></div>
+					<div class="blocktext"></div>
+					<div class="blocktext"></div>
+				</div>
 			</div>
 		</div>
 	</div>
