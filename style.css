@@ -576,8 +576,35 @@ font-weight: 700;
 .blockop1 {
 	position: relative;
 	display: block;
-	height: 360px;
-	opacity: 0.6;
-	background-color: #1a263f;
+	height: 77%;
+	background-color: rgba(26,38,63,0.6);	
 	vertical-align: bottom;
+
+}
+.space {
+	height: 23%;
+}
+.blockop1 p{
+width: 80%;
+text-align: center;
+display: block;
+color: white;
+font-family: "Helvetica Neue Cyr";
+font-size: 1.2em;
+height: auto;
+margin: 80px auto;
+font-weight: 300;
+line-height: 28px;
+}
+.blockop1 h1{
+width: 80%;
+text-align: center;
+display: block;
+margin: 0px auto;
+color: #fefefe;
+font-family: "Open Sans";
+font-size: 1.5em;
+font-weight: 700;
+position: relative;
+top:40px;
 }
