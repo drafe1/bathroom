@@ -11,6 +11,7 @@ nav {
 	margin: 0;
 	opacity: 0.8;
 	z-index: 1;
+	position: fixed;
 }
 .about {
 	margin-top: -35px;
@@ -87,7 +88,8 @@ margin: 9.5px 0 auto auto;
 	
 min-height: 114px;
 width: 90% ;
-margin: 136 auto auto auto;
+top: 136px;
+margin: 0 auto auto auto;
 position: relative;
 
 opacity: 0.5;
@@ -110,7 +112,9 @@ vertical-align: middle;
 
 }
 .second {
-margin: 26 auto auto auto;
+margin: 0 auto auto auto;
+top: 146px;
+position: relative;
 
 
 min-height: 84px;
@@ -170,7 +174,7 @@ line-height: 13px;
 
 }
 .rightbar {
-	position: absolute;
+	position: relative;
 	right: 15%;
 	bottom: 10px;
 	width: 27%;
@@ -860,10 +864,11 @@ display: block;
       textarea#newoptions {
         width:430px;
       }
-=======
-}
+
+
 
 .registration {
+	z-index: 1;
 	min-height: 106px;
 	width: 100%;
 	background: url(img/registration.png) no-repeat;
@@ -904,4 +909,4 @@ display: block;
 	font-weight: bold;
 	height: 25px;
 }
->>>>>>> 9dad515ebf78d09e11ecb00b9894edb21625e202
+
