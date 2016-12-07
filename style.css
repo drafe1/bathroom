@@ -4,6 +4,9 @@
 body {
 	background: url(img/bg.png);
 }
+#startSpace{
+	height: 1px;
+}
 nav {
 	height: 85px;
 	width: 100%;
@@ -11,6 +14,7 @@ nav {
 	margin: 0;
 	opacity: 0.8;
 	z-index: 1;
+	position: fixed;
 }
 .about {
 	margin-top: -35px;
@@ -738,7 +742,7 @@ font-size: 1.5em;
 font-weight: 700;
 position: relative;
 top:40px;
-<<<<<<< HEAD
+
 
 }
 .brand {
@@ -860,8 +864,7 @@ display: block;
       textarea#newoptions {
         width:430px;
       }
-=======
-}
+
 
 .registration {
 	min-height: 106px;
@@ -904,4 +907,3 @@ display: block;
 	font-weight: bold;
 	height: 25px;
 }
->>>>>>> 9dad515ebf78d09e11ecb00b9894edb21625e202
