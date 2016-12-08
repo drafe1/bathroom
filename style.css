@@ -17,7 +17,7 @@ nav {
 	position: fixed;
 }
 .about {
-	margin-top: -35px;
+	margin-top:36px; 
 	background: url(img/about.jpg);
 	background-position: center;
 	width: 100%;
@@ -51,6 +51,10 @@ nav li{
 	padding-left: 1%;
 
 	text-align: center;
+}
+	nav li:hover{
+	cursor: pointer;
+	text-decoration: underline;
 	
 
 }
@@ -80,18 +84,21 @@ font-size: 16px;
 font-weight: 700;
 line-height: 12px;
 margin: 9.5px 0 auto auto;
+padding-left: 3px;
 }
 #knop img {
 	margin: 2px 0 auto auto;
 	height: 35px;
 	float: right;
 	display: block;
+	border-radius: 16px;
 }
 .first{
 	
 min-height: 114px;
 width: 90% ;
-top: 136px;
+position: relative;
+top:106px;
 margin: 0 auto auto auto;
 position: relative;
 
@@ -115,9 +122,11 @@ vertical-align: middle;
 
 }
 .second {
-margin: 0 auto auto auto;
-top: 146px;
+
 position: relative;
+top:126px;
+margin: 0 auto;
+
 
 
 min-height: 84px;
@@ -140,7 +149,8 @@ overflow: hidden;
 
 }
 .bar {
-	
+position: relative;
+top:136px;
 	width: 100%;
 	
 	height: 62%;
@@ -148,6 +158,7 @@ overflow: hidden;
 .leftbar {
 	float: left;
 	position: fixed;
+	top:400px;
 	z-index: 2;
 	vertical-align: bottom;
 	height: 200px;
@@ -179,7 +190,7 @@ line-height: 13px;
 .rightbar {
 	position: relative;
 	right: 15%;
-	bottom: 10px;
+	bottom: 5px;
 	width: 27%;
 	float: right;
 	height: 252px;
@@ -440,7 +451,7 @@ text-align: center;
 .dateform p{
 	color: white;
 	margin-top: 10px;
-	margin-left: 20px;
+	margin-left: 3%;
 }
 #dateform1 {
 	width: 55%;
@@ -817,6 +828,48 @@ text-align: center;
 	height: 50px;
 	width: 100%;
 }
+.registration {
+	z-index: 1;
+	min-height: 106px;
+	width: 100%;
+	background: url(img/registration.png) no-repeat;
+	background-size: 100%;
+}
+.registration p {
+	text-align: center;
+	color: white;
+	position: relative;
+	top: 7px;
+	font-size: 1.1em;
+}
+.registration #form {
+	display: block;
+	margin: 30px auto;
+	width: 60%;
+}
+.registration input {
+	width: 30%;
+	border-radius: 30px;
+	outline: none;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-left: 1px;
+	height: 25px;
+	letter-spacing: 0px;
+}
+.registration input:first-child{
+	margin-left: 20px;
+	width: 15%;
+}
+.registration button {
+	width: 40%;
+	border-radius: 30px;
+	outline: none;
+	background-color: yellow;
+	font-size: 1em;
+	font-weight: bold;
+	height: 25px;
+}
 .leftblock  {
 
 	height: 50px;
@@ -868,54 +921,5 @@ display: block;
         width:430px;
       }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 35e5ae507f79f9c7fe637a7249feb81729dec0fc
 
-.registration {
-	z-index: 1;
-	min-height: 106px;
-	width: 100%;
-	background: url(img/registration.png) no-repeat;
-	background-size: 100%;
-}
-.registration p {
-	text-align: center;
-	color: white;
-	position: relative;
-	top: 7px;
-	font-size: 1.1em;
-}
-.registration #form {
-	display: block;
-	margin: 30px auto;
-	width: 60%;
-}
-.registration input {
-	width: 30%;
-	border-radius: 30px;
-	outline: none;
-	margin-left: 15px;
-	margin-right: 15px;
-	padding-left: 1px;
-	height: 25px;
-	letter-spacing: 0px;
-}
-.registration input:first-child{
-	margin-left: 20px;
-	width: 15%;
-}
-.registration button {
-	width: 40%;
-	border-radius: 30px;
-	outline: none;
-	background-color: yellow;
-	font-size: 1em;
-	font-weight: bold;
-	height: 25px;
-}
-<<<<<<< HEAD
-
-=======
->>>>>>> 35e5ae507f79f9c7fe637a7249feb81729dec0fc
