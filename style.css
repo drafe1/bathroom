@@ -188,14 +188,13 @@ line-height: 13px;
 
 }
 .rightbar {
-	position: relative;
+
 	right: 15%;
 	bottom: 5px;
 	width: 27%;
 	float: right;
 	height: 252px;
-opacity: 0.6;
-background-color: black;
+background:rgba(0,0,0,0.6);
 border: 1px solid #e6e3e3;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -226,22 +225,27 @@ font-size: 16px;
 	outline: none;
 }
 .button2{
-	margin: 15px;
+	margin-right: 10px;
 	display: inline-block;
 	text-align: center;
-	width: 80%;
-height: 44px;
-background:url(img/button3.png);
-
-
-
+	width: 85%;
+height: 43px;
+background-color: yellow;
+border-radius: 30px;
 }
-.button2:hover{
-	border: solid black 1px;
-	color: #edff21;
-	cursor: pointer;
-	border-radius: 25px;
-
+.button2 p{
+	color: black;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: left;
+	margin:10px;
+	float: left;
+	vertical-align: middle;
+	line-height: 25px;
+	width: 60%;
+}
+.button2 img{
+	float: right;
 }
 
 .work {

@@ -41,6 +41,9 @@
     </script>
 </head>
 <body>
+<div id="PopUp" onclick="closePopUp()">
+	<div id="childPopUp"></div>
+</div>
 <div id="startSpace"></div>
 	<nav><img id="vann"src="img/vann.png"> 
 		<ul>
@@ -62,9 +65,9 @@
 		<div class='bar'>
 			<div class="leftbar">
 			<div class="cross" id="cross1" onclick="closeAndOpen(this)"><p>x</p></div>
-				<div class="work" id="work1"><p>Реставрация ванн</p></div><div class="cross" id="cross2" onclick="closeAndOpen(this)"><p>x</p></div>
-				<div class="work" id="work2"><p>Вызвать сантехника</p></div><div class="cross" id="cross3" onclick="closeAndOpen(this)"><p>x</p></div>
-				<div class="work" id="work3"><p>Плиточные работы</p></div>
+				<div class="work" id="work1" onclick="openPopUp()"><p>Реставрация ванн</p></div><div class="cross" id="cross2" onclick="closeAndOpen(this)"><p>x</p></div>
+				<div class="work" id="work2" onclick="openPopUp()"><p>Вызвать сантехника</p></div><div class="cross" id="cross3" onclick="closeAndOpen(this)"><p>x</p></div>
+				<div class="work" id="work3" onclick="openPopUp()"><p>Плиточные работы</p></div>
 			</div>
 			<div class="rightbar">
 				<span>Закажите расчет</span>
@@ -75,7 +78,9 @@
 					<input type="text" name="number1" placeholder="Ваш телефон или Email"></input>
 
 				</form>
-				<div class="button2"></div>
+				<div class="button2">
+					 <img src="img/message.png">
+				</div>
 			</div>
 
 		</div>	
